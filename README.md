@@ -1,3 +1,19 @@
+Android-Percent-Layout-Sample
+---
+This is a sample for using android percent layout.
+---
+
+![PercentLayout](https://raw.githubusercontent.com/lusfold/Android-Percent-Layout-Sample/master/percent_layout_show.png)
+
+### Add support library
+```xml
+dependencies {
+    compile 'com.android.support:percent:22.2.0'
+}
+```
+
+###Layout
+```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -60,3 +76,32 @@
             app:layout_widthPercent="100%" />
     </android.support.percent.PercentRelativeLayout>
 </RelativeLayout>
+```
+
+###The attributes that you can use
+
+- layout_widthPercent
+- layout_heightPercent
+- layout_marginPercent
+- layout_marginLeftPercent
+- layout_marginTopPercent
+- layout_marginRightPercent
+- layout_marginBottomPercent
+- layout_marginStartPercent
+- layout_marginEndPercent
+
+## License
+
+    Copyright 2015 Lusfold
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
