@@ -1,7 +1,7 @@
-Android-Percent-Layout-Sample
----
+###Android-Percent-Layout-Sample
 This is a sample for using android percent layout.
----
+
+And [HERE](http://developer.android.com/reference/android/widget/FrameLayout.LayoutParams.html) you can find it
 
 ![PercentLayout](https://raw.githubusercontent.com/lusfold/Android-Percent-Layout-Sample/master/percent_layout_show.png)
 
